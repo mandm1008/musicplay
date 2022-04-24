@@ -1,0 +1,11 @@
+@media (max-width: 399px) {
+    #play {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .menu {
+        min-width: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/data/img/titleicon.png" type="image/png">
+    <title>Play Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="data" href="./assets/data">
+    <script src="./assets/js/play.js" defer></script>
+</head>
+
+<body>
+    <div class="app">
+        <!-- Begin: Music Play -->
+        <div id="play">
+            <header class="play__head">
+                <div class="btn btn--s">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <h4 class="music-name">Now Playing</h4>
+                <div class="btn btn--s">
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <div class="menu">
+                    <div class="live-music-ctn"></div>
+                </div>
+                <div class="input-ctn">
+                    <input type="text" placeholder="Search...">
+                    <div class="result-search">
+
+                    </div>
+                </div>
+            </header>
+
+            <div class="play__body">
+                <div class="banner">
+                    <img src="" width="300px" height="300px">
+                    <div class="banner-ctn"></div>
+                </div>
+                <h1 class="title music-name"></h1>
+                <p></p>
+            </div>
+
+            <div class="play__times">
+                <div class="times">
+                    <p id="current-time">00:00</p>
+                    <p id="duration-time">00:00</p>
+                    <div class="times__hover">00:00</div>
+                </div>
+                <div class="times-range width-range">
+                    <div class="range">
+                        <div class="range__btn"></div>
+                    </div>
+                    <div class="range__hover"></div>
+                </div>
+            </div>
+
+            <div class="play__control">
+                <div class="btn">
+                    <i class="fas fa-random"></i>
+                </div>
+                <div class="btn">
+                    <i class="fas fa-backward"></i>
+                </div>
+                <div>
+                    <div class="btn btn--l open">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="btn btn--l">
+                        <i class="fas fa-pause"></i>
+                    </div>
+                </div>
+                <div class="btn">
+                    <i class="fas fa-forward"></i>
+                </div>
+                <div class="btn">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+            </div>
+        </div>
+
+        <audio src=""></audio>
+    </div>
+    <script src="./assets/js/render.js"></script>
+</body>
+
+</html>
